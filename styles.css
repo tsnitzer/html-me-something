@@ -47,6 +47,10 @@ section:last-child {
 	margin-bottom: 0;
 }
 
+.oddListing {
+	background-color: #ebffef;
+}
+
 nav ul {
 	text-align: center;
 	padding: 0;
@@ -84,11 +88,15 @@ footer {
 	text-align: center;
     padding: 10px;
     font-family: 'Itim', cursive;
-    font-size: 12px;
 }
 
 footer p {
 	display: inline-block;
+}
+
+#pageFooter {
+	font-size:11px;
+	color: rgba(0, 0, 0, 0.5) ;
 }
 
 @media screen and (max-width: 680px) {
