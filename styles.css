@@ -1,0 +1,103 @@
+body {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: rgb(75, 152, 99);
+	font-size: 62.5%;
+}
+
+header,
+main,
+footer {
+	background-color: #ddd;
+	font-size: 1.6em;
+}
+
+header {
+    padding: 1.875em 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30;
+    font-weight: 500;
+}
+
+header h1 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+main h2 {
+    padding: 10px 2;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 150;
+    text-align: center;
+}
+
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+	margin-right: 15px;
+    font-size: 12px;
+    font-family: 'Itim', cursive;
+}
+
+p {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: 'Itim', cursive;
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: center;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-family: 'Itim', cursive;
+    font-size: 10px;
+}
+
+footer {
+	text-align: center;
+    padding: 10px;
+    font-family: 'Itim', cursive;
+    font-size: 12px;
+}
+
+footer p {
+	display: inline-block;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
